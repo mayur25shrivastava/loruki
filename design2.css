@@ -1,0 +1,217 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-weight: lighter;
+}  
+body{
+    line-height: 1.5;
+    color: #333;
+    font-family: 'lato',sans-serif;
+}
+ul{
+    list-style-type: none;
+}
+a{
+    text-decoration: none;
+    color: #333;
+}
+h1,h2{
+    font-weight: 300;
+    line-height: 1.2;
+    margin: 10px 0;
+}
+p{
+    margin: 10px 0;
+}
+img{
+    width: 100%;
+}
+.navbar{
+    background-color: #047aed;
+    color: #fff;
+    height: 70px;
+}
+.navbar ul{
+    display: flex;
+}
+.navbar a{
+    color: #fff;
+    padding: 10px;
+}
+.navbar a:hover{
+    border-bottom: 2px solid #fff;
+}
+.navbar .flex{
+    justify-content: space-between;
+}
+.container{
+    max-width: 1170px;
+    margin: 0 auto;
+    overflow: auto;
+    padding: 0 40px;
+}
+.flex{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100%;
+}
+/* bottom part of navbar  */
+.botnav{
+    background-color: #047aed;
+    color: #fff;
+    padding: 2rem;
+}
+.botnav img{
+    width: 200px;
+    justify-self: flex-end;
+
+}
+.botnav1{
+    max-width: 1170px;
+    margin: 0 auto;
+    padding: 0 40px;
+    overflow: auto;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+.botnavbar1 h1{
+    font-size: 4rem;
+}
+.botnavbar1 p{
+    font-size: 1.3rem;
+}
+.content1{
+    background-color: #f4f4f4;
+    color: black;
+    padding: 2rem;
+}
+.kw{
+    max-width: 1170px;
+    padding: 0 40px;
+    margin: 0 auto;
+    overflow: auto;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    padding: 2rem;
+}
+.kw img{
+    width: 200px;
+    justify-self: flex-end;
+}
+.kw1 h3{
+    font-size: 2rem;
+}
+/* information section  */
+/* features  */
+.my-2 {
+    margin: 1.5rem 0;
+  }
+  .features-main .grid {
+    padding: 30px;
+  }
+  .grid-3 {
+    grid-template-columns: repeat(3, 1fr);
+  }
+  .grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+  }
+  .features-main .grid > :first-child {
+    grid-column: 1 / span 2;
+  }
+  .flex5 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+  }
+  .card5 {
+    background-color: #fff;
+    color: #333;
+    border-radius: 10px;
+    box-shadow: 0 3px 10px rgba(0, 0, 0, 0.2);
+    padding: 20px;
+    margin: 10px;
+  }
+  .features-main .card > i {
+    margin-right: 20px;
+  }
+  .fa, .fas {
+    font-weight: 900;
+  }
+  .fa, .far, .fas {
+    font-family: "Font Awesome 5 Free";
+  }
+  .fa-3x {
+    font-size: 3em;
+  }
+  .fa, .fab, .fad, .fal, .far, .fas {
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-font-smoothing: antialiased;
+    display: inline-block;
+    font-style: normal;
+    font-variant: normal;
+    text-rendering: auto;
+    line-height: 1;
+  }
+  .card5 p {
+    margin: 10px 0;
+  }
+  .container5 {
+    max-width: 1100px;
+    margin: 0 auto;
+    overflow: auto;
+    padding: 0 40px;
+  }
+.features-head img{
+    width: 200px;
+    justify-self: flex-end;
+}
+.features-sub-head img{
+    width: 200px;
+    justify-self: flex-end;
+}
+
+/* footer  */
+
+.bottom{
+    background-color: #002240;
+    color: white;
+    padding: 4rem 0;
+}
+.botnav7{
+    max-width: 1170px;
+    margin: 0 auto;
+    overflow: auto;
+    padding: 0 40px;
+    display: grid;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    grid-template-columns: repeat(3,1fr);
+
+}
+.botnav10{
+    display: flex;
+    flex-direction: column;
+}
+.botnav10 h4{
+    font-size: 30px;
+}
+.botnav20 a{
+    color: white;
+}
+.botnav30 a{
+    color: white;
+}

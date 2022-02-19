@@ -1,0 +1,78 @@
+/* first for index section  */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-weight: lighter;
+}  
+body{
+    line-height: 1.5;
+    color: #333;
+    font-family: 'lato',sans-serif;
+}
+.navbar{
+    height: 110px;
+
+}
+.navbar .flex{
+    flex-direction: column;
+}
+.navbar .ul{
+    flex-direction: column;
+    padding: 10px;
+    background-color: black;
+}
+
+
+
+
+
+/* tablet  */
+.grid,.showcase .grid,.stats .grid,.cli .grid,.cloud .grid {
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr;
+}
+.container3{
+    grid-template-columns: repeat(1,3fr);
+    margin: 2rem 0;
+}
+.showcase{
+    height: auto;
+}
+.showcase p {
+    margin: 20px 36px;
+}
+.showcase h1 {
+    font-size: 38px;
+}
+.showcase-text{
+    text-align: center;
+    margin-top: 40px;
+}
+.showcase-form{
+    justify-self: center;
+    margin: auto;
+}
+.fa-3x {
+    font-size: 2em;
+}
+.box1 h3,.box2 h3,.box3 h3 {
+    font-size: 1.5rem;
+}
+.abd{
+    grid-template-columns: 1fr;
+}
+.language{
+    flex-wrap: wrap;
+}
+.ik{
+    grid-template-columns: repeat(2,1fr);
+}
+
+.cli .grid > :first-child {
+    grid-column: 1 ;
+    grid-row: 1;
+}
+.botnav{
+    grid-template-columns: 1fr;
+}
